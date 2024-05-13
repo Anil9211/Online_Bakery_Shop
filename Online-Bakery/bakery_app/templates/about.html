@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --main-color: #F4EDE7;
+            --nav-color: rgb(57, 141, 144);
+            --bg-color: rgb(224, 173, 173);
+            --black: #2f4858;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: all 0.5s ease-in;
+            scroll-behavior: smooth;
+            scroll-padding-top: 16vh;
+        }
+
+        html {
+            font-size: 62.5%;
+            overflow-x: hidden;
+        }
+
+        body {
+            background-color: var(--bg-color);
+        }
+
+        section {
+            padding: 2rem 7%;
+        }
+
+        .btn {
+            display: inline-block;
+            text-align: center;
+            background-color: var(--black);
+            color: #fff;
+            font-size: 1.7rem;
+            padding: 0.8rem 2.5rem;
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            letter-spacing: 0.2rem;
+        }
+
+        .about .container {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(186, 225, 212);
+            flex-wrap: wrap;
+        }
+
+        .about .container .img {
+            flex: 1 1 45rem;
+        }
+
+        .about .container .img img {
+            width: 100%;
+        }
+
+        .about .container .content {
+            flex: 1 1 45rem;
+            padding: 2rem;
+        }
+
+        .about .container .content h3 {
+            font-size: 3rem;
+            color: white;
+            padding: 1.2rem 0;
+        }
+
+        .about .container .content p {
+            font-size: 1.6rem;
+            color: rgba(7, 7, 7, 0.73);
+            padding: 1rem 0;
+            line-height: 2.2rem;
+        }
+    </style>
+</head>
+
+<body>
+   
+       
+    <section class="about" id="about">
+        <h1 class="title">About Us</h1>
+        <div class="container">
+            <div class="img">
+                <img src="image/background.webp">
+            </div>
+            <div class="content">
+                <h3>What makes us different?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia non, ullam dolorum earum
+                    deserunt, atque, tempora quod quia iure explicabo dignissimos nesciunt ea nemo porro? Error
+                    quibusdam vero tempora!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolores eum quidem maiores? Minima
+                    fugit facere expedita, pariatur dolor nemo esse repudiandae molestiae odit? Laudantium nihil ex
+                    voluptates nesciunt asperiores.</p>
+                <a href="" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
